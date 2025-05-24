@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
     flex: auto;
-    border: solid 2px red;
 
 }
 
@@ -16,30 +15,52 @@ body {
 .section-1 {
     background-color: rgba(0, 0, 139, 0.411);
     flex: 1;
+    min-height: 300px;
 }
 .section-2 {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    flex-grow: 2;
+    gap: 20px;
+    border: solid green 2px;
+    min-height: 300px;
     
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
 }
 .section-3 {
     background-color: darkgray;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
     flex: 3;
+    min-height: 300px;
 }
 .section-4 {
     background-color: white;
-     flex: 3;
-}
+    flex: 3;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .header {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-height: 50px;
+    margin: 0 100px;
 
 }
 
@@ -53,21 +74,26 @@ body {
 .footer {
     background-color: rgba(0, 0, 139, 0.411);
     flex: 1;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-1 {
     display: flex;
-    justify-content: center;
-    align-items: start;
-    border: solid green 2px;
-    gap: 100px;
+    justify-content: space-between;
+    margin: 0 100px;
 }
 
 .content-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex: 1;
     border: solid green 2px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    margin: 0 200px;
+
 }
 .title-text {
     display: flex;
@@ -87,8 +113,59 @@ body {
 }
 
 .sq-img {
-    height: 100px;
-    width: 100px;
+
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px;
+    /* border: solid blue 3px; */
 }
 
+.img-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quote-1 {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0px auto;
+    border: solid red 2px;
+}
+
+.quote-2{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    border: solid red 2px;
+    margin: 0px auto;
+    max-width: 1000px;
+   
+}
+
+.contrast-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    min-width: 300px;
+    flex: auto;
+    height: 100px;
+    max-width: 1000px;
+
+}
+
+.content-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 5px 50px;
+}
+.content-4-text-block {
+    display: flex;
+    flex-direction: column;
+}
 
