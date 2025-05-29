@@ -1,5 +1,8 @@
 # landing-page
 
+**THIS PROJECT IS ODIN PROJECT TRAINING
+EXERCISE**
+
 2nd odin project - landing page
 
 This project will incorporate the main foundations
